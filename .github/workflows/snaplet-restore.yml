@@ -1,7 +1,7 @@
 name: Snaplet Restore
 on:
     schedule:
-      - cron: '0 */1 * * *' # At 04:00 on every day-of-week from Monday through Friday.
+      - cron: '0 */23 * * *' # At 04:00 on every day-of-week from Monday through Friday.
     workflow_dispatch:
 jobs:
   snaplet-restore-snapshot:
